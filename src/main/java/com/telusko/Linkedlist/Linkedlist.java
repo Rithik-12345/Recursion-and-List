@@ -1,7 +1,6 @@
-package com.telusko;
+package com.telusko.Linkedlist;
 
 import java.lang.*;
-import java.util.Arrays;
 
 class Node{
     int data;

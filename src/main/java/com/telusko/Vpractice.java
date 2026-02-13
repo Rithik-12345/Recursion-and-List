@@ -10,6 +10,17 @@ public class Vpractice {
         v1.add("Rahul");
         v1.add("Manoj");
 
-        System.out.println(v1);
+        Vector v2 = new Vector();
+        v2.add("Suresh");
+        v2.add("Rehman");
+
+        //for(int i = 0; i < v2.size(); i++){  // If we follow this method it will be the waste of performance.
+            //v1.add(v2.get(i));
+        //}
+
+        v1.addAll(v2);
+
+        System.out.println(v1.size());
+        System.out.println(v1.capacity());
     }
 }
