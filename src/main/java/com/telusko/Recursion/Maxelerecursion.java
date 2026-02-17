@@ -1,4 +1,4 @@
-package com.telusko;
+package com.telusko.Recursion;
 
 import java.lang.*;
 import java.util.*;
